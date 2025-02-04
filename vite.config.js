@@ -7,7 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/<dinner-invitation>/' : '/',
+  base: "/dinner-invitation/",
   plugins: [
     vue(),
     vueDevTools(),
